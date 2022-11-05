@@ -1,36 +1,3 @@
-
-  // Agency Theme JavaScript
-  (function($) {
-    "use strict"; // Start of use strict
-    
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        if (!$anchor.attr('href')) return;
-        if (!$anchor.attr('href').startsWith('#')) return;
-        if (!$($anchor.attr('href')).length) return;
-        $('html, body').stop().animate({
-          scrollTop: ($($anchor.attr('href')).offset().top - 50)
-          // scrollTop: ($($anchor.attr('href')).offset().top)
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
-    });
-    
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    });
-    
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
-      $('.navbar-toggle:visible').click();
-    });
-    
-    // Offset for Main Navigation
-    $('#main-nav').affix({
-      offset: {
-        top: 100
-      }
-    });
-  })(jQuery);
+�� zw2N�x��i'+��_�w-�����-�'-���j�h~����r�����'讖�z�+�Yb��j۫{�ު��z�й���"�
+e��j��{���en)�rX����rب��ޞ�ڭ�܆���+"}�܆�ڶ�����z۫�'ڝ�h��m��~�Z����kz۫�'ڝ�h��m��~W���kz۫�f����h��♫^����T襩܆�ڶ�����}���)��?��+�YS���r+j�k������z�h�]����x�κ�1���z{i��ޞ��}����Ǌe�m����ڽ�,r�%�)���.���w+��e���j��v�m��~,^w�h��߱�y�����^E�)�{"����'1��"צ
+X��v�m��r�ej��Ybi�brG���b�yڽ���� �W��ț��%��?��߱�_���sZ�(�*'����v�i��Ƈ߱�m��t�4.z���w-��䕪�r�����u�%j���֥��^�$�rV��^�jjX����y٨u�h��h��&�֥~�ܶ*'z�������Z��b�jjW%j���Zu�%j���֥��^�jjZ'�'^nɨu�_�w-��޽������֥����Z��Z�����ޚ�ޒV��jj_���䕪�r���
